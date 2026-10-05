@@ -1,0 +1,485 @@
+{
+  "weather": [
+    {
+      "fi": "weather",
+      "en": "weather",
+      "th": "สภาพอากาศ"
+    },
+    {
+      "fi": "air",
+      "en": "air, weather",
+      "th": "อากาศ / สภาพอากาศ"
+    },
+    {
+      "fi": "How is the weather today?",
+      "en": "How is the weather today?",
+      "th": "วันนี้อากาศเป็นอย่างไร"
+    },
+    {
+      "fi": "How many degrees is it outside?",
+      "en": "How many degrees is it outside?",
+      "th": "ข้างนอกกี่องศา"
+    },
+    {
+      "fi": "degree",
+      "en": "degree (temperature)",
+      "th": "องศา (อุณหภูมิ)"
+    },
+    {
+      "fi": "hot weather",
+      "en": "hot weather",
+      "th": "อากาศร้อนจัด"
+    },
+    {
+      "fi": "It is below zero",
+      "en": "It is below zero",
+      "th": "อุณหภูมิต่ำกว่าศูนย์"
+    },
+    {
+      "fi": "sun",
+      "en": "sun",
+      "th": "ดวงอาทิตย์"
+    },
+    {
+      "fi": "The sun is shining",
+      "en": "The sun is shining",
+      "th": "พระอาทิตย์ส่องแสง"
+    },
+    {
+      "fi": "It is sunny",
+      "en": "It is sunny",
+      "th": "มีแดด"
+    },
+    {
+      "fi": "It is cloudy",
+      "en": "It is cloudy",
+      "th": "มีเมฆมาก"
+    },
+    {
+      "fi": "It is partly cloudy",
+      "en": "It is partly cloudy",
+      "th": "มีเมฆบางส่วน"
+    },
+    {
+      "fi": "It is clear, It does not rain",
+      "en": "It does not rain",
+      "th": "อากาศแห้ง ไม่มีฝน"
+    },
+    {
+      "fi": "It is raining",
+      "en": "It is raining",
+      "th": "ฝนตก"
+    },
+    {
+      "fi": "rain",
+      "en": "rain",
+      "th": "ฝน"
+    },
+    {
+      "fi": "fog",
+      "en": "fog",
+      "th": "หมอก"
+    },
+    {
+      "fi": "It is foggy",
+      "en": "It is foggy",
+      "th": "มีหมอก"
+    },
+    {
+      "fi": "It is rainy",
+      "en": "It is rainy",
+      "th": "มีฝน / ฝนชุก"
+    },
+    {
+      "fi": "sleet",
+      "en": "sleet",
+      "th": "ฝนปนหิมะ"
+    },
+    {
+      "fi": "It is sleeting",
+      "en": "It is sleeting",
+      "th": "ฝนปนหิมะตก"
+    },
+    {
+      "fi": "snow",
+      "en": "snow",
+      "th": "หิมะ"
+    },
+    {
+      "fi": "It is snowing",
+      "en": "It is snowing",
+      "th": "หิมะตก"
+    },
+    {
+      "fi": "wind",
+      "en": "wind",
+      "th": "ลม"
+    },
+    {
+      "fi": "It is windy",
+      "en": "It is windy",
+      "th": "ลมพัด / มีลม"
+    },
+    {
+      "fi": "storm",
+      "en": "storm",
+      "th": "พายุ"
+    },
+    {
+      "fi": "thunder",
+      "en": "thunder",
+      "th": "ฟ้าร้อง / พายุฝนฟ้าคะนอง"
+    },
+    {
+      "fi": "lightning",
+      "en": "lightning",
+      "th": "ฟ้าแลบ"
+    },
+    {
+      "fi": "moon",
+      "en": "moon",
+      "th": "ดวงจันทร์"
+    },
+    {
+      "fi": "star",
+      "en": "star",
+      "th": "ดาว"
+    },
+    {
+      "fi": "northern lights",
+      "en": "northern lights",
+      "th": "แสงเหนือ"
+    }
+  ],
+  "seasons": [
+    {
+      "fi": "season",
+      "en": "season",
+      "th": "ฤดูกาล"
+    },
+    {
+      "fi": "winter",
+      "en": "winter, in the winter",
+      "th": "ฤดูหนาว / ในฤดูหนาว"
+    },
+    {
+      "fi": "spring",
+      "en": "spring, in the spring",
+      "th": "ฤดูใบไม้ผลิ / ในฤดูใบไม้ผลิ"
+    },
+    {
+      "fi": "summer",
+      "en": "summer, in the summer",
+      "th": "ฤดูร้อน / ในฤดูร้อน"
+    },
+    {
+      "fi": "autumn",
+      "en": "autumn, in the autumn",
+      "th": "ฤดูใบไม้ร่วง / ในฤดูใบไม้ร่วง"
+    },
+    {
+      "fi": "month",
+      "en": "month",
+      "th": "เดือน"
+    },
+    {
+      "fi": "January",
+      "en": "January, in January",
+      "th": "มกราคม / ในเดือนมกราคม"
+    },
+    {
+      "fi": "February",
+      "en": "February, in February",
+      "th": "กุมภาพันธ์ / ในเดือนกุมภาพันธ์"
+    },
+    {
+      "fi": "March",
+      "en": "March, in March",
+      "th": "มีนาคม / ในเดือนมีนาคม"
+    },
+    {
+      "fi": "April",
+      "en": "April, in April",
+      "th": "เมษายน / ในเดือนเมษายน"
+    },
+    {
+      "fi": "May",
+      "en": "May, in May",
+      "th": "พฤษภาคม / ในเดือนพฤษภาคม"
+    },
+    {
+      "fi": "June",
+      "en": "June, in June",
+      "th": "มิถุนายน / ในเดือนมิถุนายน"
+    },
+    {
+      "fi": "July",
+      "en": "July, in July",
+      "th": "กรกฎาคม / ในเดือนกรกฎาคม"
+    },
+    {
+      "fi": "August",
+      "en": "August, in August",
+      "th": "สิงหาคม / ในเดือนสิงหาคม"
+    },
+    {
+      "fi": "September",
+      "en": "September, in September",
+      "th": "กันยายน / ในเดือนกันยายน"
+    },
+    {
+      "fi": "October",
+      "en": "October, in October",
+      "th": "ตุลาคม / ในเดือนตุลาคม"
+    },
+    {
+      "fi": "November",
+      "en": "November, in November",
+      "th": "พฤศจิกายน / ในเดือนพฤศจิกายน"
+    },
+    {
+      "fi": "December",
+      "en": "December, in December",
+      "th": "ธันวาคม / ในเดือนธันวาคม"
+    },
+    {
+      "fi": "day",
+      "en": "24 hours",
+      "th": "หนึ่งวันเต็ม 24 ชั่วโมง"
+    },
+    {
+      "fi": "morning",
+      "en": "morning, in the morning",
+      "th": "เช้า / ตอนเช้า"
+    },
+    {
+      "fi": "late morning",
+      "en": "between 9 and 12 am",
+      "th": "ช่วงสาย / ในช่วงสาย"
+    },
+    {
+      "fi": "daytime",
+      "en": "day, in the daytime",
+      "th": "วันหรือกลางวัน / ตอนกลางวัน"
+    },
+    {
+      "fi": "afternoon",
+      "en": "afternoon, in the afternoon",
+      "th": "บ่าย / ตอนบ่าย"
+    },
+    {
+      "fi": "evening",
+      "en": "evening, in the evening",
+      "th": "เย็น / ตอนเย็น"
+    },
+    {
+      "fi": "night",
+      "en": "night, at night",
+      "th": "กลางคืน / ตอนกลางคืน"
+    },
+    {
+      "fi": "early morning",
+      "en": "early hours, in the early hours",
+      "th": "ช่วงหลังเที่ยงคืนถึงเช้ามืด / ในช่วงเช้ามืด"
+    },
+    {
+      "fi": "We are open 24/7",
+      "en": "We are open 24/7",
+      "th": "เราเปิดตลอด 24 ชั่วโมง"
+    }
+  ],
+  "adjectives": [
+    {
+      "fi": "good",
+      "en": "good",
+      "th": "ดี"
+    },
+    {
+      "fi": "bad",
+      "en": "bad",
+      "th": "ไม่ดี / แย่"
+    },
+    {
+      "fi": "hot",
+      "en": "hot",
+      "th": "ร้อน"
+    },
+    {
+      "fi": "cold",
+      "en": "cold",
+      "th": "หนาว / เย็น"
+    },
+    {
+      "fi": "difficult",
+      "en": "difficult",
+      "th": "ยาก"
+    },
+    {
+      "fi": "easy",
+      "en": "easy",
+      "th": "ง่าย"
+    },
+    {
+      "fi": "small",
+      "en": "small",
+      "th": "เล็ก"
+    },
+    {
+      "fi": "big",
+      "en": "big",
+      "th": "ใหญ่"
+    },
+    {
+      "fi": "large",
+      "en": "big",
+      "th": "ใหญ่"
+    },
+    {
+      "fi": "new",
+      "en": "new",
+      "th": "ใหม่"
+    },
+    {
+      "fi": "old",
+      "en": "old",
+      "th": "เก่า / แก่"
+    },
+    {
+      "fi": "beautiful",
+      "en": "beautiful",
+      "th": "สวย"
+    },
+    {
+      "fi": "ugly",
+      "en": "ugly",
+      "th": "น่าเกลียด"
+    },
+    {
+      "fi": "warm",
+      "en": "warm",
+      "th": "อบอุ่น"
+    },
+    {
+      "fi": "chilly",
+      "en": "cold",
+      "th": "หนาว / เย็น (ซ้ำตามต้นฉบับ)"
+    },
+    {
+      "fi": "cool",
+      "en": "cool, chilly",
+      "th": "เย็นสบาย / เย็นนิด ๆ"
+    },
+    {
+      "fi": "light",
+      "en": "light",
+      "th": "สว่าง"
+    },
+    {
+      "fi": "dark",
+      "en": "dark",
+      "th": "มืด"
+    },
+    {
+      "fi": "short",
+      "en": "short",
+      "th": "สั้น"
+    },
+    {
+      "fi": "long",
+      "en": "long, tall",
+      "th": "ยาว / สูง"
+    },
+    {
+      "fi": "much",
+      "en": "much, a lot",
+      "th": "มาก"
+    },
+    {
+      "fi": "little",
+      "en": "a little",
+      "th": "น้อย"
+    }
+  ],
+  "colours": [
+    {
+      "fi": "colour",
+      "en": "colour",
+      "th": "สี"
+    },
+    {
+      "fi": "What colour is your jacket?",
+      "en": "what colour is your jacket?",
+      "th": "คุณมีเสื้อแจ็กเก็ตสีอะไร"
+    },
+    {
+      "fi": "white",
+      "en": "white",
+      "th": "สีขาว"
+    },
+    {
+      "fi": "red",
+      "en": "red",
+      "th": "สีแดง"
+    },
+    {
+      "fi": "orange",
+      "en": "orange",
+      "th": "สีส้ม"
+    },
+    {
+      "fi": "yellow",
+      "en": "yellow",
+      "th": "สีเหลือง"
+    },
+    {
+      "fi": "green",
+      "en": "green",
+      "th": "สีเขียว"
+    },
+    {
+      "fi": "blue",
+      "en": "blue",
+      "th": "สีน้ำเงิน / ฟ้า"
+    },
+    {
+      "fi": "purple",
+      "en": "purple",
+      "th": "สีม่วงอ่อน"
+    },
+    {
+      "fi": "pink",
+      "en": "pink",
+      "th": "สีชมพู"
+    },
+    {
+      "fi": "brown",
+      "en": "brown",
+      "th": "สีน้ำตาล"
+    },
+    {
+      "fi": "beige",
+      "en": "beige",
+      "th": "สีเบจ"
+    },
+    {
+      "fi": "black",
+      "en": "black",
+      "th": "สีดำ"
+    },
+    {
+      "fi": "grey",
+      "en": "grey",
+      "th": "สีเทา"
+    },
+    {
+      "fi": "dark blue",
+      "en": "dark blue",
+      "th": "สีน้ำเงินเข้ม"
+    },
+    {
+      "fi": "light pink",
+      "en": "light red, pink",
+      "th": "สีชมพูอ่อน"
+    }
+  ]
+}

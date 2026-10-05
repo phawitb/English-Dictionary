@@ -1,0 +1,17 @@
+{
+  "language": "en-th",
+  "description": "English–Thai adaptation. Original filenames and page identifiers retained for compatible navigation.",
+  "reading": "vuodenajat-suomessa.pdf",
+  "audio": "1-33-vuodenajat-suomessa.mp3",
+  "translation": "vuodenajat-suomessa-translation.docx",
+  "weatherPictures": "weather-pictures.pdf",
+  "bookPages": [
+    60,
+    61,
+    62,
+    73,
+    75,
+    81,
+    331
+  ]
+}

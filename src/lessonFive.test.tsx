@@ -1,0 +1,50 @@
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import { beforeEach, expect, it } from 'vitest';
+import App from './App';
+
+beforeEach(() => localStorage.clear());
+it('opens lesson 5, exposes the original audio and downloads, and keeps explicit completion', async () => {
+  const user = userEvent.setup();
+  const view = render(<App />);
+  await user.click(screen.getAllByRole('button', { name: 'Lessons' })[0]);
+  await user.click(screen.getByRole('button', { name: /Lesson 5,/ }));
+  expect(screen.getByRole('heading', { name: 'Seasons and Weather' })).toBeInTheDocument();
+  await user.click(screen.getByRole('tab', { name: /Reading/ }));
+  expect(screen.getByLabelText('Seasons in Finland — track 1-33')).toHaveAttribute('src', '/lesson5/1-33-vuodenajat-suomessa.mp3');
+  expect(screen.getByText(/There are four seasons in Finland/)).toBeInTheDocument();
+  expect(screen.getByText('0%')).toBeInTheDocument();
+  await user.click(screen.getByRole('button', { name: 'ทำส่วนนี้เสร็จแล้ว' }));
+  await user.click(screen.getByRole('tab', { name: /Files/ }));
+  expect(screen.getByRole('link', { name: /Translation.*DOCX/ })).toHaveAttribute('href', '/lesson5/vuodenajat-suomessa-translation.docx');
+  view.unmount();
+  render(<App />);
+  await user.click(screen.getAllByRole('button', { name: 'Lessons' })[0]);
+  await user.click(screen.getByRole('button', { name: /Lesson 5,/ }));
+  expect(screen.queryByText('0%')).not.toBeInTheDocument();
+});
+
+it('offers the assigned textbook exercises using printed pages and the official answer key', async () => {
+  const user = userEvent.setup();
+  render(<App />);
+  await user.click(screen.getAllByRole('button', { name: 'Lessons' })[0]);
+  await user.click(screen.getByRole('button', { name: /Lesson 5,/ }));
+  await user.click(screen.getByRole('tab', { name: /Book/ }));
+  expect(screen.getByRole('heading', { name: 'Exercise 9 · page 73' })).toBeInTheDocument();
+  expect(screen.getByLabelText('Answer 9B item 8')).toBeInTheDocument();
+  await user.type(screen.getByLabelText('Answer 9B item 6'), 'nice');
+  await user.click(screen.getByRole('button', { name: '12 · Page 75' }));
+  expect(screen.getByRole('heading', { name: 'Exercise 12 · page 75' })).toBeInTheDocument();
+  expect(screen.getByLabelText('Answer 12 picture 4')).toBeInTheDocument();
+  await user.click(screen.getByText('Answer key · Picture 4'));
+  expect(screen.getByText('It is windy. It is partly cloudy. It is cool.')).toBeInTheDocument();
+  await user.click(screen.getByRole('button', { name: '23 · Page 81' }));
+  expect(screen.getByLabelText('Answer 23 item 4')).toBeInTheDocument();
+  await user.click(screen.getByText('Answer key · Item 4'));
+  expect(screen.getByText('At the cottage we do not write an email.')).toBeInTheDocument();
+  expect(screen.getByText('At the cottage we fish.')).toBeInTheDocument();
+  await user.click(screen.getByRole('button', { name: '9 · Page 73' }));
+  expect(screen.getByLabelText('Answer 9B item 6')).toHaveValue('nice');
+  await user.click(screen.getByRole('tab', { name: /Files/ }));
+  expect(screen.getByRole('link', { name: /หน้าหนังสือ 331/ })).toHaveAttribute('href', '/lesson5/book/page-331.jpg');
+});

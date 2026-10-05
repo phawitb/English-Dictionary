@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+.firecrawl/
+tmp/
+output/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
